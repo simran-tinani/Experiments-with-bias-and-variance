@@ -1,5 +1,13 @@
+####################################
+# # Project: Experiments-with-bias-and-variance
+# # Author: Simran Tinani
+# # Date: 20-01-2019
+# # Remarks: Inspired by the problems of homework assignment 4 of the Learning from Data telecourse 
+#     by Yaser Abu-Mostafa (CalTech University): https://work.caltech.edu/homework/hw4.pdf
+#####################################
+
 # hypotheses: lines through origin 
-f <- function(x){ 
+f <- function(x){ # target function
   sin(pi*x)
 }
 a_D = 0
